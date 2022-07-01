@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Our Menu</title>
+<style>
+	* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 ;
+
+}
+body{
+	background-color: skyblue;
+}
+p {
+	  padding: 10px;
+	  border: 5px solid black;
+	  width: 300px;
+	  height:350px;
+	  margin-top: 100px;
+	  font-family:cursive;
+	  font-size:15px;
+	  margin-right: 10px;
+	margin-left: 10px;
+
+  	
+}
+#p1{
+	background-color: blueviolet;
+	float: left;
+
+}
+#p2 {
+	background-color: darkred;
+	float: left;
+}
+#p3 {
+	background-color: gray;
+	float:left ;
+}
+/***************** desktop *****************/
+@media (min-width:992px  ){
+
+body {
+    background-color: crimson;
+
+  }
+}
+
+
+/***************** Tablet *****************/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width:40%;
+    height: 10%;
+  }
+   #p2 {
+    width:40%;
+    height: 10%;
+  }
+  #p3{
+  	width: 80%;
+  	height: 200%;
+  	margin-left:50px ;
+
+  }
+  body {
+    background-color: blue;
+
+  }
+}
+
+
+/***************** Mobile *****************/
+@media (max-width:767px  ){
+ #p1 {
+    width:80%;
+    height: 10%;
+  }
+   #p2 {
+    width:80%;
+    height: 10%;
+  }
+  #p3{
+  	width: 80%;
+  	height: 10%;
+  	
+
+  }
+  body {
+    background-color: orangered;
+
+  }
+}
+
+}
+/********** Medium devices only **********/
+
+</style>
+</head>
+<body>
+<h1 style="text-align: center;"> Our Menu </h1>
+
+	<p id= "p1">
+		Chicken <br>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	
+	<p id="p2">
+		Beef <br>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	
+	<p id="p3">
+		Sushi <br>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+
+</body>
+</html>
